@@ -73,7 +73,7 @@ Channel $fulladdr
 Expunge Both
 ${master:-Far} :$fulladdr-remote:
 ${slave:-Near} :$fulladdr-local:
-Patterns * !\"[Gmail]/All Mail\"
+Patterns * ![Gmail]* \"[Gmail]/Sent Mail\" \"[Gmail]/Drafts\" \"[Gmail]/Starred\" \"[Gmail]/Spam\" \"[Gmail]/All Mail\" \"[Gmail]/Trash\"
 Create Both
 SyncState *
 MaxMessages ${maxmes:-0}
@@ -105,9 +105,9 @@ set mbox_type = Maildir
 set hostname = \"$hostname\"
 source $muttshare/switch.muttrc
 set spoolfile = "+INBOX"
-set postponed = "+Drafts"
-set trash = "+Trash"
-set record = "+Sent"
+set postponed = \"=[Gmail]/Drafts\"
+set trash = \"=[Gmail]/Trash\"
+set record = \"=[Gmail]/Sent Mail\"
 $extra
 $synccmd
 macro index \eg \"<enter-command>unset wait_key<enter><shell-escape>gpg --list-secret-keys; printf 'Enter email ID of user to publish: '; read eID; printf 'Enter fingerprint of GPG key to publish: '; read eFGPT; $prefix/libexec/gpg-wks-client --create \\\$eFGPT \\\$eID | msmtp --read-envelope-from --read-recipients -a $fulladdr<enter>\"  \"publish GPG key to WKS provider\"
