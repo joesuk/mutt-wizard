@@ -16,7 +16,7 @@ Channel $fulladdr
 Expunge Both
 $master :$fulladdr-remote:
 $slave :$fulladdr-local:
-Patterns * !"[Gmail]/All Mail"
+Patterns * ![Gmail]* \"[Gmail]/Sent Mail\" \"[Gmail]/Drafts\" \"[Gmail]/Starred\" \"[Gmail]/Spam\" \"[Gmail]/All Mail\" \"[Gmail]/Trash\"
 Create Both
 SyncState *
 MaxMessages $maxmes

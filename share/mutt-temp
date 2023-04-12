@@ -11,8 +11,8 @@ set mbox_type = Maildir
 set hostname = "$hostname"
 source $muttshare/switch.muttrc
 set spoolfile = "+INBOX"
-set postponed = "+Drafts"
-set trash = "+Trash"
-set record = "+Sent"
+set postponed = \"=[Gmail]/Drafts\"
+set trash = \"=[Gmail]/Trash\"
+set record = \"=[Gmail]/Sent Mail\"
 $extra
 macro index o "<shell-escape>mailsync $fulladdr<enter>" "sync $fulladdr"
