@@ -67,8 +67,10 @@ cocaine.ninja,mail.cock.li,993,mail.cock.li,587
 cock.email,mail.cock.li,993,mail.cock.li,587
 cock.li,mail.cock.li,993,mail.cock.li,587
 cock.lu,mail.cock.li,993,mail.cock.li,587
+coldmail.xyz,mail.sheriffmediocre.xyz,993,mail.sheriffmediocre.xyz,465
 collector.org,imap.mail.com,993,smtp.mail.com,587
 columnist.com,imap.mail.com,993,smtp.mail.com,587
+comcast.net,imap.comcast.net,993,smtp.comcast.net,465
 comic.com,imap.mail.com,993,smtp.mail.com,587
 computer4u.com,imap.mail.com,993,smtp.mail.com,587
 consultant.com,imap.mail.com,993,smtp.mail.com,587
@@ -105,6 +107,7 @@ faks.no,mail.uniweb.no,993,mail.uniweb.no,465
 fastmail.com,imap.fastmail.com,993,smtp.fastmail.com,465
 fastmail.fm,imap.fastmail.com,993,smtp.fastmail.com,465
 fct.unl.pt,imap.gmail.com,993,smtp.gmail.com,587
+fidei.email,box.fidei.email,993,box.fidei.email,465
 firemail.cc,mail.cock.li,993,mail.cock.li,587
 forpsi.com,imap.forpsi.com,993,smtp.forpsi.com,465
 forthnet.gr,mail.forthnet.gr,993,smtp-auth.forthnet.gr,465
@@ -223,7 +226,8 @@ poczta.onet.pl,imap.poczta.onet.pl,993,smtp.poczta.onet.pl,465
 polimi.it,outlook.office365.com,993,smtp.office365.com,587
 polito.it,mail.polito.it,993,mail.polito.it,465
 post.com,imap.mail.com,993,smtp.mail.com,587
-posteo.*,posteo.de,993,posteo.de,587
+posteo.*,posteo.de,993,posteo.de,465
+privateemail.com,mail.privateemail.com,993,mail.privateemail.com,443
 privacy.xyz,imap.nixnet.email,143,smtp.nixnet.email,587
 privacyrequired.com,mail.autistici.org,993,smtp.autistici.org,465
 prokonto.pl,poczta.o2.pl,993,poczta.o2.pl,465
